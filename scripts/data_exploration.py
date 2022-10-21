@@ -22,7 +22,7 @@ class dataExplorer:
         plt.show()
         
     
-    def plot_heatmap_from_correlation(correlation, title:str):
+    def plot_heatmap_from_correlation(self, correlation, title:str):
         
         '''Plots rectangular matrix as a color encoded matrix 
         and correlation matrix passed to the correlation argument.
@@ -62,7 +62,7 @@ class dataExplorer:
         plt.yticks(fontsize=14)
         plt.show()
         
-    def plot_hist(df: pd.DataFrame, column: str, color: str) -> None:
+    def plot_hist(self,df: pd.DataFrame, column: str, color: str) -> None:
         
         '''
         Plots a histogram of df with [column] parameter(the column to be plotted)
@@ -117,7 +117,7 @@ class dataExplorer:
         plt.show()
         
     
-    def plot_count(df: pd.DataFrame, column: str) -> None:
+    def plot_count(self, df: pd.DataFrame, column: str) -> None:
         
         '''
         Plots a count plot of df
