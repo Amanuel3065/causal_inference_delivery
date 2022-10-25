@@ -10,7 +10,7 @@ from logger import App_Logger
 
 app_logger = App_Logger("../logs/data_manipulator.log").get_app_logger()
 
-class DataManipulator:
+class dataScaler:
     def __init__(self, df: pd.DataFrame, deep=False):
         """
             Returns a DataManipulator Object with the passed DataFrame Data set as its own DataFrame
